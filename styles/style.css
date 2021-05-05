@@ -169,6 +169,10 @@ a {
   background-image: url("../images/tatif-02.svg");
 }
 
+.tarif-item__02 .tarif-info__title {
+  color: #19C787;
+}
+
 .tarif-item__02 .tarif-footer {
   background-color: rgba(25, 199, 135, 0.05);
 }
@@ -180,6 +184,10 @@ a {
 
 .tarif-item__03 .tarif-header {
   background-image: url("../images/tatif-03.svg");
+}
+
+.tarif-item__03 .tarif-info__title {
+  color: #FF9F1C;
 }
 
 .tarif-item__03 .tarif-footer {
@@ -195,6 +203,8 @@ a {
   background-position: 0 center;
   padding-top: 10rem;
   border-radius: .8rem .8rem 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .tarif-info {
@@ -210,6 +220,18 @@ a {
       -ms-flex-align: center;
           align-items: center;
   padding: 4rem 3rem 3.5rem;
+  position: relative;
+}
+
+.tarif-info::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4.5rem;
+  background-image: url("../images/Group.svg");
+  position: absolute;
+  left: 0;
+  top: -4.5rem;
 }
 
 .tarif-info__title {
@@ -267,5 +289,41 @@ a {
   position: absolute;
   top: calc(50% - 1rem);
   left: 0;
+}
+
+.comments__title {
+  width: 37.5rem;
+}
+
+.massage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.massage__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 59.6rem;
+  margin-right: 4.0rem;
+  margin-bottom: 4.0rem;
+}
+
+.massage___head-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 3.6rem;
+}
+
+.avatar img {
+  margin-right: 1.6rem;
 }
 /*# sourceMappingURL=style.css.map */
