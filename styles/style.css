@@ -326,4 +326,21 @@ a {
 .avatar img {
   margin-right: 1.6rem;
 }
+
+.footer-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-item__title {
+  padding: 0;
+}
+
+.footer-list {
+  list-style: none;
+}
 /*# sourceMappingURL=style.css.map */

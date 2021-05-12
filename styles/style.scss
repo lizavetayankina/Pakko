@@ -283,3 +283,14 @@ display: flex;
     padding-bottom: 3.6rem;
     img { margin-right: 1.6rem;}
 }
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item__title {
+    padding: 0;
+}
+.footer-list {
+    list-style: none;
+}
